@@ -1,11 +1,5 @@
 #!/usr/bin/env bash
-#Script that shows only listening socket and PID
-netstat -pl
-
-5-is_the_host_on_the_network
-
-#!/usr/bin/env bash
-# Script to ping 5 times
+# Script to ping 5 times to listening ports 
 if [ "$#" -ne 1 ]; then
    echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
 else
